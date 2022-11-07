@@ -22,11 +22,9 @@ const TestimonialSlider = () => {
     <Slider {...settings}>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
-        </p>
+          "Loved how easy to use this website is!"
+          "The payment, menu selection,checkout everything was so smoothe!" 
+          "Very convinient will definitely recommend my friends about Dinezzy"        </p>
         <div className=" slider__content d-flex align-items-center gap-3 ">
           <img src={ava01} alt="avatar" className=" rounded" />
           <h6>Jhon Doe</h6>
@@ -34,10 +32,9 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+          "I adore how user-friendly this website is!
+          Everything about the checkout, including the payment, was very easy!
+          Excellent convenience; I'll tell my friends about Dinezzy."
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
           <img src={ava02} alt="avatar" className=" rounded" />
@@ -46,10 +43,9 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+          "I adore how simple it is to utilise this website!
+          Payment, meal selection, and checkout were all very easy!
+           I'll absolutely tell my friends about Dinezzy because it's so convenient."
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
           <img src={ava03} alt="avatar" className=" rounded" />

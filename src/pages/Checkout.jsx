@@ -105,7 +105,7 @@ const Checkout = () => {
                 <button type="submit" className="addTOCart__btn" onClick={()=>setpaypal(!paypal)}>
                   Payment
                 </button>
-              {paypal &&  <PayPalScriptProvider options={{"client-id": "AcbWFqseytCH0kp6iqkDfKKN6uanARCvZ-qOH3ewLSA.TFT4drJxiSpZ"}}>
+              {paypal &&  <PayPalScriptProvider options={{"client-id": "AJCrjcYPxVhJApNwf4NcAkAGnD2qA7KHEXhGYi65ID2LyevY5d99OaWK"}}>
                   <PayPalButtons 
                   createOrder={(data, actions) => {
                     return actions.order.create({

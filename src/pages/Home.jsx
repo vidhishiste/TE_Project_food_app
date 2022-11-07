@@ -13,7 +13,6 @@ import Category from "../components/UI/category/Category.jsx";
 
 import "../styles/home.css";
 
-// import featureImg01 from "../assets/images/service-01.png";
 import featureImg02 from "../assets/images/service-02.png";
 import featureImg03 from "../assets/images/service-03.png";
 
@@ -26,6 +25,7 @@ import foodCategoryImg03 from "../assets/images/bread.png";
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 
 import whyImg from "../assets/images/location.png";
+import cafe_img from "../assets/images/Industrial-01.jpg";
 
 import networkImg from "../assets/images/network.png";
 
@@ -41,12 +41,12 @@ const featureData = [
   {
     title: "Super Dine In",
     imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "",
   },
   {
     title: "Easy Table booking",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "",
   },
 ];
 
@@ -244,7 +244,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="6" md="6">
-              <img src={whyImg} alt="why-tasty-treat" className="w-100" />
+              <img src={cafe_img} alt="why-tasty-treat" className="w-100" />
             </Col>
 
             <Col lg="6" md="6">
@@ -253,10 +253,7 @@ const Home = () => {
                   Why <span>Dinezzy ?</span>
                 </h2>
                 <p className="tasty__treat-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, minus. Tempora reprehenderit a corporis velit,
-                  laboriosam vitae ullam, repellat illo sequi odio esse iste
-                  fugiat dolor, optio incidunt eligendi deleniti!
+                 
                 </p>
 
                 <ListGroup className="mt-4">
@@ -266,8 +263,7 @@ const Home = () => {
                       foods
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
+                     
                     </p>
                   </ListGroupItem>
 
@@ -276,8 +272,7 @@ const Home = () => {
                       <i class="ri-checkbox-circle-line"></i> Quality support
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      
                     </p>
                   </ListGroupItem>
 
@@ -287,8 +282,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                     
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -324,9 +318,7 @@ const Home = () => {
                   What our <span>customers</span> are saying
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
+                 Such a user friendly webiste ! I was able to use it hassle free, even the payment was smoothe.
                 </p>
 
                 <TestimonialSlider />
